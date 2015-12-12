@@ -1,0 +1,65 @@
+{% extends "index.html" %}
+{% block head %}
+<div id='header'>
+  <h5>
+    current location: <a href="/">~sunhwanj</a> > publications
+  </h5>
+</div>
+{% endblock %}
+
+{% block body %}
+<div id='body'>
+  <!-- Name -->
+  <h1><b>Publications</b></h1>
+
+  <!-- Link block to main sections -->
+  <div class='hlinks'>
+    <ul>
+      <li><a href="#article">article</a></li>
+      <li><a href="#book-chapter/">book chapter</a></li>
+    </ul>
+  </div>
+
+  <div class='articles'>
+    <h2 id="article">articles</h2>
+
+    <a href="http://scholar.google.com/citations?user=yKZyFBsAAAAJ&hl=en">My Google Scholar Profile</a>
+
+    <ol>
+{% for pub in pubs.articles %}
+      <li>
+        {{ pub.title }}<br>
+        <span style="font-size: 11pt">
+        {{ pub.authors|replace('Sunhwan Jo', '<b>Sunhwan Jo</b>') }}.<br>
+        <i>{{ pub.journal }}</i>
+        {% if pub.status %}<i>{{ pub.status }}</i>
+        {% else %}({{ pub.year }}) {{ pub.volume }}{% if pub.issue %}({{ pub.issue }}){% endif %}:{{ pub.pages }}
+        {% endif %}<br>
+        {% if pub.links %}[{{ pub.links|join(' | ') }}]{% endif %}
+        </span>
+{% endfor %}
+    </ol>
+  </div>
+
+  <div class='articles'>
+    <h2 id="book-chapter">book chapters</h2>
+
+    <ol>
+{% for pub in pubs.bookchapter %}
+      <li>
+        {{ pub.title }}<br>
+        <span style="font-size: 11pt">
+        {{ pub.authors|replace('Sunhwan Jo', '<b>Sunhwan Jo</b>') }}.<br>
+        <i>{{ pub.book }}</i>
+        {% if pub.status %}<i>{{ pub.status }}</i>
+        {% else %}({{ pub.year }})
+        {% endif %}<br>
+        {% if pub.links %}[{{ pub.links|join(' | ') }}]{% endif %}
+        </span>
+{% endfor %}
+    </ol>
+  </div>
+
+</div>
+{% endblock %}
+

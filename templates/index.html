@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?xml-stylesheet href="/jdc.css" type="text/css"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="/static/basic.css" />
+  <title>Sunhwan Jo</title>
+  <meta name="author" content="Sunhwan Jo"/>
+  <meta name="description" content="Sunhwan Jo's homepage"/>
+  <meta name="keywords" content="Sunhwan,Sunhwan Jo,sunhwanj,S Jo,Jo S"/>
+</head>
+
+<!--
+This web design has been blantantly borrowed from the fantastic page of John D. Chodera, at http://choderalab.org, which has been blatantly borrowed from the fantastic page of Gavin E. Crooks, at http://threeplusone.com.  I hope they doesn't mind too much...
+-->
+
+<body>
+  <center>
+
+<!-- Hierarchical navigation links -->
+{% block head %}
+<div id='header'>
+  <h5>
+    current location: ~sunhwanj
+  </h5>
+</div>
+{% endblock %}
+
+{% block body %}
+<div id='body'>
+  <div id='index'>
+    <!-- Name -->
+    <h1><b>Sunhwan Jo</b></h1>
+
+    <!-- affiliation -->
+    <div id='affiliation'>
+      <ul>
+        <li>Postdoctoral Researcher</li>
+        <li><a href="http://alcf.anl.gov/">Leadership Computing Facility</a></li>
+        <li><a href="http://anl.gov">Argonne National Lab</a></li>
+      </ul>
+    </div>
+
+
+    <!-- Main picture -->
+    <div style='height: 360px'>&nbsp;</div>
+    {#
+    <table class="shadow"  border="0" cellspacing="0" cellpadding="0" align="center">
+      <tr>
+        <td class="shadow-topLeft"></td>
+        <td class="shadow-top"></td>
+        <td class="shadow-topRight"></td>
+      </tr>
+      <tr>
+        <td class="shadow-left"></td>
+        <td class="shadow-center" align="center">
+          <!-- <img src="misc/images/misc/new%20glasses.jpg" alt="[JDC photo]" /> -->
+          <!-- <img src="misc/images/misc/john-hat.jpg" alt="[JDC photo]" /> -->
+          <!-- <img src="misc/images/misc/John%20in%20blazer.jpg" alt="[JDC photo]" /> -->
+  <!-- <img src="misc/images/misc/John%20at%20desk.jpg" alt="[JDC photo]" /> -->
+          <!-- <img src="misc/images/misc/jdc-at-biophysics-retreat.jpg" alt="[JDC photo]" /> -->
+          <img src="misc/images/misc/john-with-coffee-london.jpg" width="320" alt="[JDC photo]" />
+        </td>
+        <td class="shadow-right"></td>
+      </tr>
+      <tr>
+        <td class="shadow-bottomLeft"></td>
+        <td class="shadow-bottom"></td>
+        <td class="shadow-bottomRight"></td>
+      </tr>
+    </table>
+    #}
+
+    <!-- Link block to main sections -->
+    <div class='hlinks'>
+      <ul>
+        <li><a href="pubs/">publications</a></li>
+        <li><a href="static/CV.pdf">CV</a></li>
+        <!--<li><a href="code">takeaways</a></li>-->
+        <li><a href="http://charmm.sunhwanj.com">CHARMM</a></li>
+        <li><a href="http://www.charmm-gui.org">CHARMM-GUI</a></li>
+        <li><a href="http://anmpathway.lcrc.anl.gov">ANM Pathway Server</a></li>
+        <li><a href="http://graphene.sunhwanj.com">Graphene Builder</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+<!-- Footer block -->
+<div id='footer'>
+  <address>
+    <a class="mailto" href="mailto:sunhwanj@gmail.com">sunhwanj@gmail.com</a>
+    <!-- Date last modified -->
+    Last Modified Apr. 2015
+  </address>
+</div>
+
+<!-- GOOGLE ANALYTICS BEGIN -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37033618-1']);
+  _gaq.push(['_setDomainName', 'sunhwanj.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- GOOGLE ANALYTICS END -->
+</body>
+</html>
