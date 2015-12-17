@@ -1,5 +1,25 @@
 articles:
 -
+    title: CHARMM-GUI Input Generator for NAMD, GROMACS, AMBER, OpenMM, and CHARMM/OpenMM Simulations using the CHARMM36 Additive Force Field
+    authors: Jumin Lee, Xi Cheng, Jason M Swails, Min Sun Yeom, Peter Kenneth Eastman, Justin A Lemkul, Shuai Wei, Joshua Buckner, Jong Cheol Jeong, Yifei Qi, Sunhwan Jo, Vijay S Pande, David A Case, Charles L Brooks, Alexander D MacKerell, Jeffery B Klauda, Wonpil Im
+    journal: J. Chem. Theory Compute.
+    doi: 10.1021/acs.jctc.5b00935
+    year: 2015
+-
+    title: Roles of Glycans in Interactions between gp120 and HIV Broadly Neutralizing Antibodies
+    authors: Yifei Qi, Sunhwan Jo, Wonpil Im
+    journal: Glycobiology
+    doi: 10.1093/glycob/cwv101
+    year: 2015
+-
+    title: Preferred Conformations of N-glycan Core Pentasaccharide in Solution and in Glycoproteins
+    authors: Sunhwan Jo, Yifei Qi, Wonpil Im
+    journal: Glycobiology
+    doi: 10.1093/glycob/cwv083
+    year: 2016
+    volume: 26
+    pages: 19-29
+-
     title: A generic implementation of replica exchange with solute tempering (REST2) algorithm in NAMD for complex biophysical simulations
     authors: Sunhwan Jo, Wei Jiang
     journal: Compute. Phys. Comm.
@@ -7,20 +27,6 @@ articles:
     year: 2015
     volume: 197
     pages: 304-311
--
-    title: Roles of Glycans in Interactions between gp120 and HIV Broadly Neutralizing Antibodies
-    authors: Yifei Qi, Sunhwan Jo, Wonpil Im
-    journal: Glycobiology
-    doi: 10.1093/glycob/cwv101
-    year: 2015
-    volume: cwv101
--
-    title: Preferred Conformations of N-glycan Core Pentasaccharide in Solution and in Glycoproteins
-    authors: Sunhwan Jo, Yifei Qi, Wonpil Im
-    journal: Glycobiology
-    doi: 10.1093/glycob/cwv083
-    year: 2015
-    volume: cwv083
 -
     title: Efficient determination of relative entropy using combined temperature and Hamiltonian replica-exchange molecular dynamics
     authors: Sunhwan Jo, Chris Chipot, Benoît Roux
