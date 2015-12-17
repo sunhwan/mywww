@@ -44,6 +44,7 @@ class PubHandler(webapp2.RequestHandler):
                     links.append((pub['website'], pub['website'][7:].rstrip('/')))
             if pub.has_key('doi'): links.append(('http://dx.doi.org/%s' % pub['doi'], 'DOI'))
             if pub.has_key('pdf'): links.append(('/static/pubs/%s' % pub['pdf'].replace(' ', '_'), 'PDF'))
+            if pub.has_key('git'): links.append((pub['git'], 'GitHub'))
 
             for url,title in links:
                 pub['links'].append("<a href='%s'>%s</a>" % (url, title))
