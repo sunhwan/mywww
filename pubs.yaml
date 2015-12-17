@@ -5,6 +5,7 @@ articles:
     journal: J. Chem. Theory Compute.
     doi: 10.1021/acs.jctc.5b00935
     year: 2015
+    website: http://charmm-gui.org
 -
     title: Roles of Glycans in Interactions between gp120 and HIV Broadly Neutralizing Antibodies
     authors: Yifei Qi, Sunhwan Jo, Wonpil Im
@@ -27,6 +28,7 @@ articles:
     year: 2015
     volume: 197
     pages: 304-311
+    git: https://github.com/sunhwan/NAMD-REST
 -
     title: Efficient determination of relative entropy using combined temperature and Hamiltonian replica-exchange molecular dynamics
     authors: Sunhwan Jo, Chris Chipot, Benoît Roux
@@ -35,6 +37,7 @@ articles:
     year: 2015
     volume: 11
     pages: 2234-2244
+    git: https://github.com/sunhwan/NAMD-replica
 -
     title: GS-align for Glycan Structure Alignment and Similarity Measurement
     authors: Hui Sun Lee, Sunhwan Jo, Srayanta Mukherjee, Sang-Jun Park, Jeffrey Skolnick, Jooyoung Lee, Wonpil Im
@@ -68,7 +71,7 @@ articles:
     volume: 35
     issue: 27
     pages: 1997-2004
-    website: http://www.charmm-gui.org/input/membrane
+    website: http://charmm-gui.org/input/membrane
 -
     title: Exploring the Conformational Transitions of Biomolecular Systems Using a Simple Two-State Anisotropic Network Model
     authors: Avisek Das, Mert Gur, Mary Hongying Cheng, Sunhwan Jo, Ivet Bahar, and Benoît Roux
@@ -79,6 +82,7 @@ articles:
     volume: 10
     issue: 4
     pages: e1003521
+    git: https://github.com/sunhwan/pathfinder
 -
     title: "ST‐analyzer: A web‐based user interface for simulation trajectory analysis"
     authors: Jong Cheol Jeong, Sunhwan Jo, Emilia L Wu, Yifei Qi, Viviana Monje‐Galvan, Min Sun Yeom, Lev Gorenstein, Feng Chen, Jeffery B Klauda, Wonpil Im
