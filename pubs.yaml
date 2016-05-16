@@ -122,6 +122,7 @@ articles:
     volume: 53
     issue: 8
     pages: 2171-2180
+    pdf: J._Chem._Inf._Model._2013_Cheng.pdf
 -
     title: NMR-Based simulation studies of pf1 coat protein in explicit membranes
     authors: Xi Cheng, Sunhwan Jo, Francesca M Marassi, Wonpil Im
@@ -307,6 +308,7 @@ bookchapter:
     year: 2015
     book: "Methods in Molecular Biology: Glycoinformatics"
     doi: 10.1007/978-1-4939-2343-4_25
+    pdf: Methods Mol. Biol. 2015 Mallajosyula.pdf 
 - 
     title: CHARMM-GUI PDB Manipulator for Advanced Modeling and Simulations of Proteins Containing Nonstandard Residues.
     authors: Sunhwan Jo, Xi Cheng, Shahidul M. Islam, Lei Huang, Huan Rui, Allen Zhu, Hui Sun Lee, Yifei Qi, Wei Han, Kenno Vanommeslaeghe, Alexander D. MacKerell Jr., Benoît Roux, Wonpil Im
