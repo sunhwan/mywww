@@ -1,5 +1,53 @@
 articles:
 -
+    title: Optimization and Evaluation of Site-Identification by Ligand Competitive Saturation (SILCS) as a Tool for Target-Based Ligand Optimization
+    authors: Vincent D Ustach, Sirish Kaushik Lakkaraju, Sunhwan Jo, Wenbo Yu, Wenjuan Jiang, Alexander D. MacKerell Jr
+    journal: J. Chem. Inf. Model.
+    year: 2019
+    doi: 10.1021/acs.jcim.9b00210
+-
+    title: Exploring protein-protein interactions using the Site-Identification by Ligand Competitive Saturation (SILCS) methodology
+    authors: Wenbo Yu, Sunhwan Jo, Sirish Kaushik Lakkaraju, David J Weber, Alexander D MacKerell Jr
+    year: 2018
+    volume: 87
+    issue: 4
+    pages: 289-301
+    doi: 10.1002/prot.25650
+-
+    title: Glycan Reader is improved to recognize most sugar types and chemical modifications in the Protein Data Bank
+    authors: Sang-Jung Park, Jumin Lee, Dhilon S Patel, Hongjing Ma, Hui Sun Lee, Sunhwan Jo, Wonpil Im
+    journal: Bioinformatics
+    year: 2017
+    volume: 33
+    issue: 19    
+    pages: 3051-3057
+    doi: 10.1093/bioinformatics/btx358
+-
+    title: CHARMM-GUI 10 Years for Biomolecular Modeling and Simulation
+    authors: Sunhwan Jo, Xi Cheng, Jumin Lee, Seonghoon Kim, Sang-Jun Park, Dhilon S Patel, Andrew H Beaven, Kyu Il Lee, Huan Rui, Soohyung Park, Hui Sun Lee, Benoît Roux, Alexander D MacKerell Jr, Jeffrey B Klauda, Yifei Qi, Wonpil Im
+    year: 2017
+    volume: 38
+    issue: 15
+    pages: 1114-1124
+    doi: 10.1002/jcc.24660
+-
+    title: Leveraging the Information from Markov State Models to Improve the Convergence of Umbrella Sampling Simulations
+    authors: Sunhwan Jo, Donghyuk Suh, Ziwei He, Christophe Chipot, Benoît Roux
+    journal: J. Phys. Chem.
+    year: 2016
+    volume: 120
+    issue: 33
+    pages: 8733-8742
+    doi: 10.1021/acs.jpcb.6b05125
+-
+    title: Preferred Conformations of N-glycan Core Pentasaccharide in Solution and in Glycoproteins
+    authors: Sunhwan Jo, Yifei Qi, Wonpil Im
+    journal: Glycobiology
+    doi: 10.1093/glycob/cwv083
+    year: 2016
+    volume: 26
+    pages: 19-29
+-
     title: CHARMM-GUI Input Generator for NAMD, GROMACS, AMBER, OpenMM, and CHARMM/OpenMM Simulations using the CHARMM36 Additive Force Field
     authors: Jumin Lee, Xi Cheng, Jason M Swails, Min Sun Yeom, Peter Kenneth Eastman, Justin A Lemkul, Shuai Wei, Joshua Buckner, Jong Cheol Jeong, Yifei Qi, Sunhwan Jo, Vijay S Pande, David A Case, Charles L Brooks, Alexander D MacKerell, Jeffery B Klauda, Wonpil Im
     journal: J. Chem. Theory Compute.
@@ -12,14 +60,6 @@ articles:
     journal: Glycobiology
     doi: 10.1093/glycob/cwv101
     year: 2015
--
-    title: Preferred Conformations of N-glycan Core Pentasaccharide in Solution and in Glycoproteins
-    authors: Sunhwan Jo, Yifei Qi, Wonpil Im
-    journal: Glycobiology
-    doi: 10.1093/glycob/cwv083
-    year: 2016
-    volume: 26
-    pages: 19-29
 -
     title: A generic implementation of replica exchange with solute tempering (REST2) algorithm in NAMD for complex biophysical simulations
     authors: Sunhwan Jo, Wei Jiang
